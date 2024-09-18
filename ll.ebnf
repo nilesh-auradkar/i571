@@ -8,7 +8,7 @@ binary_expression = expression, ( "&" | "|" ), expression ;
 
 prefix_expression = "~", expression ;
 
-primary_expression = id | boolean_literal | function_application | "(", expression, ")" ;
+primary_expression = id | boolean_literal | function_application ;
 
 function_application = id, "(", [ expression, { ",", expression } ], ")" ;
 

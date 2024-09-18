@@ -19,7 +19,7 @@ class Lexer:
             ('COMMENT',  r'#.*'),
             ('FN',       r'fn'),
             ('BOOL', r'true|false'),
-            ('ID',       r'[a-zA-Z_][a-zA-Z0-9_-]*'),
+            ('ID',       r'[a-zA-Z][a-zA-Z0-9-_]*'),
             ('OP',       r'[&|~()]'),
             ('COMMA',    r','),
             ('WHITESPACE', r'[ \t\n\r]+'),
